@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clock It Baby — Support</title>
+  <meta name="description" content="Support for Clock It Baby, the quiet newborn care log for iPhone.">
+  <style>
+    :root {
+      --bg: #f6f0e5; --surface: #fbf7ee; --text: #2a221b; --muted: #5f5347;
+      --accent: #bd7f16; --accent-deep: #935f0a; --line: rgba(42,34,27,0.12);
+      color-scheme: light dark;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root { --bg: #0f0c0a; --surface: #1a1511; --text: #d9cfbf; --muted: #a2937f;
+        --accent: #d3ab63; --accent-deep: #e2be7d; --line: rgba(217,207,191,0.1); }
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); line-height: 1.6;
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
+      -webkit-font-smoothing: antialiased; }
+    .wrap { max-width: 620px; margin: 0 auto; padding: 56px 22px 80px; }
+    .mark { width: 56px; height: 56px; border-radius: 13px; background: var(--surface);
+      border: 1px solid var(--line); display: flex; align-items: center; justify-content: center; }
+    h1 { font-size: 28px; letter-spacing: -0.02em; margin: 18px 0 4px; }
+    .tag { color: var(--muted); margin: 0 0 32px; }
+    h2 { font-size: 19px; margin: 36px 0 8px; letter-spacing: -0.01em; }
+    p { margin: 0 0 12px; }
+    a { color: var(--accent-deep); }
+    .card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+      padding: 18px 20px; margin: 14px 0; }
+    .muted { color: var(--muted); }
+    footer { margin-top: 48px; padding-top: 18px; border-top: 1px solid var(--line);
+      color: var(--muted); font-size: 14px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="mark" aria-hidden="true">
+      <svg width="34" height="34" viewBox="0 0 22 22">
+        <circle cx="11" cy="11" r="7.5" fill="none" stroke="var(--text)" stroke-width="3"
+          stroke-linecap="round" stroke-dasharray="33 14" transform="rotate(-90 11 11)"/>
+      </svg>
+    </div>
+    <h1>Clock It Baby</h1>
+    <p class="tag">A quiet log for a newborn's first months — feeds, diapers, pumping, and sleep.</p>
+
+    <h2>Support</h2>
+    <div class="card">
+      <p>Questions, trouble, or a feature you're missing? Email us and a human will reply.</p>
+      <p><a href="mailto:ryan.keith.beall@gmail.com?subject=Clock%20It%20Baby%20support">ryan.keith.beall@gmail.com</a></p>
+    </div>
+
+    <h2>Common questions</h2>
+    <div class="card">
+      <p><strong>Do I need an account?</strong><br>
+      No. The app works fully without any sign-up, and every entry is saved on your device first.</p>
+      <p><strong>How does partner sync work?</strong><br>
+      One phone creates the shared log and generates a private invite code; the second phone pastes it. Both phones then write to one log. No email or password is involved.</p>
+      <p><strong>Where is my data?</strong><br>
+      On your device. If you turn on partner sync, entries also sync through our server so both phones stay current — see the <a href="privacy.html">privacy policy</a> for exactly what that means.</p>
+      <p><strong>Why is there a night mode toggle?</strong><br>
+      Because 3am is the app's real home. Night dimming swaps the whole palette for dark-adapted eyes.</p>
+    </div>
+
+    <footer>
+      © 2026 Ryan Beall · <a href="privacy.html">Privacy Policy</a>
+    </footer>
+  </div>
+</body>
+</html>
