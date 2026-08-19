@@ -31,31 +31,41 @@
 <body>
   <div class="wrap">
     <h1>Clock It Baby — Privacy Policy</h1>
-    <p class="date">Effective August 4, 2026</p>
+    <p class="date">Effective August 19, 2026</p>
 
     <p>Clock It Baby is a baby-care log built to keep your family's data on your own devices. This policy describes what the app stores, what leaves your phone, and your choices — in plain language, because that is how we would want it explained to us.</p>
 
     <h2>What the app stores</h2>
-    <p>The entries you log — feeds, diapers, pumping sessions, sleep, and any notes you attach — are stored in a database on your device. The app works completely without an account, and we collect no name, email address, phone number, location, or advertising identifier.</p>
+    <p>The entries you log — feeds, diapers, pumping sessions, sleep, and any notes you attach — are stored in a database on your device. Your settings (night dimming, volume unit, reminder timing, feed goal) stay on the device too. The app works completely without an account, and we collect no name, email address, phone number, location, or advertising identifier. It never asks for your name or your baby's.</p>
 
     <h2>Partner sync (optional)</h2>
-    <p>If you turn on partner sync, your entries are transmitted to and stored on our sync server (hosted by Supabase) so that both paired phones stay up to date. Sync uses an anonymous session — a random identifier that contains no personal information. Devices pair through a private invite code; no email or password ever exists. Under Apple's definitions this is "User Content" that is collected but <em>not linked to your identity</em>.</p>
+    <p>Partner sync is off until you turn it on. If you do, your entries are transmitted to and stored on our sync server (hosted by Supabase) so that both paired phones stay up to date. Sync uses an anonymous session — a random identifier, kept in your device's keychain, that contains no personal information. Devices pair through a private invite code; no email or password ever exists. Alongside your entries, the shared log record holds your time zone and volume unit, so both phones agree on where a day starts and how a bottle is measured. Under Apple's definitions this is "User Content" that is collected but <em>not linked to your identity</em>.</p>
+
+    <h2>Your Home and Lock Screens</h2>
+    <p>The Home Screen widget and the Live Activity (Lock Screen and Dynamic Island) read a short summary of recent activity — time since the last feed, diaper and pumping session, and any running timer — from a storage area shared between the app and its widget on your device. None of it is sent anywhere. Worth knowing, because it is the point of the feature: like any Lock Screen content, that summary can be read without unlocking the phone. Remove the widget, or turn Live Activities off for Clock It Baby in iOS Settings, if you would rather it were not.</p>
+
+    <h2>Reminders</h2>
+    <p>The feed gap reminder is off by default. When you turn it on, it is scheduled by your phone and delivered by your phone: there is no push server, no device token, and nothing to register. The reminder says only how long it has been since the last feed.</p>
+
+    <h2>Sharing a visit summary</h2>
+    <p>"Share last 7 days" builds a plain-text summary for a pediatric visit on your device and hands it to the iOS share sheet. We never see it. Where it goes — Messages, Mail, Notes, a printout — is entirely your choice, and once you send it, it is governed by whatever app you sent it to.</p>
 
     <h2>What we do not do</h2>
     <ul>
       <li>No advertising, and no advertising SDKs.</li>
-      <li>No analytics or tracking of any kind.</li>
+      <li>No analytics or tracking of any kind, and no third-party code beyond the sync client.</li>
       <li>No selling or sharing of data with anyone.</li>
     </ul>
+    <p>We have added no crash- or performance-reporting service. If you have opted in to sharing analytics with developers in iOS Settings, Apple may show us aggregate crash statistics through its own reporting system; we cannot identify anyone in it.</p>
 
     <h2>Deleting your data</h2>
-    <p>Deleting the app removes all data stored on your device. If you used partner sync and would like the synced copy of your household's log removed from the server, email us from either paired device and we will delete it.</p>
+    <p>Deleting the app removes all data stored on your device. "Disconnect this phone," in the partner panel, takes this phone out of the shared log; it deliberately does not delete the log itself, because the other phone may still be relying on it. If you used partner sync and would like the synced copy of your household's log removed from the server, email us from either paired device and we will delete it.</p>
 
     <h2>Children</h2>
     <p>Clock It Baby is made for parents and caregivers, not for children. The entries describe the care of your baby; they are yours, and treating them carefully is the point of this policy.</p>
 
     <h2>Changes</h2>
-    <p>If our data practices ever change, we will update this policy and the App Store privacy details before the change takes effect.</p>
+    <p>If our data practices ever change, we will update this policy and the App Store privacy details before the change takes effect. This revision describes features added since August 4, 2026 — widgets, Live Activities, the feed gap reminder, the visit summary, and in-app disconnect. None of them collect anything new, and the App Store privacy details are unchanged.</p>
 
     <h2>Contact</h2>
     <p><a href="mailto:ryan.keith.beall@gmail.com?subject=Clock%20It%20Baby%20privacy">ryan.keith.beall@gmail.com</a></p>
